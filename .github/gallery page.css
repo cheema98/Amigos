@@ -1,51 +1,7 @@
-html, font{
-    font: Arial, Helvetica, sans-serif;
-}
-
-html, h1, .wrapper{
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    color: blue;
-}
-
-html, h3, .wrapper{
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    color: red;
-}
-
-html, ul, .wrapper{
-    height: 100;
-    width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    color: aqua;
-}
-
-html, h6, .wrapper{
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    color: red;
-}
-
-html, nav, .wrapper{
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    color: seashell;
-}
-
 html, body, .wrapper{
     height: 100%;
     width: 100%;
     min-height: 100%;
     min-width: 100%;
-    color: blue;
+    color: peru;
 }
