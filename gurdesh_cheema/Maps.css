@@ -10,6 +10,27 @@ header {
   margin-top: 2%;
 }
 
+body::before {
+  content: "";
+  /*background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(0, 255, 255, 0.3)), url("../images/bg-ocean.jpg");*/
+  /* background-image: url("./Images/image.jpg"); */
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./Images/asakusa-tokyo-2.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: -100px;
+  right: 0;
+  position:fixed;
+  z-index: -1;
+}
+
 header > h1 {
   margin: 0 auto;
   font-size: 50pt;
@@ -78,7 +99,7 @@ iframe {
 
 
 .map-container {
-  width: 100%;
+  width: 60%;
   margin: 0 auto;
   height: 0;
   padding-top: 40%;
@@ -87,6 +108,13 @@ iframe {
   
   
  
+}
+.btn{
+  margin: 3% 43%;
+  padding: 17px;
+  background-color: burlywood;
+  border-radius: 26px;
+  color:white !important;
 }
 .map-container iframe {
   width: 100%;
@@ -116,3 +144,20 @@ footer
 
 }
   
+.map{
+  background: transparent;
+  margin:40px 0px;
+  
+}
+iframe{
+  border-radius: 25px;
+  float: left;
+}
+.pattern{
+  background:transparent !important;
+}
+
+.btn map-link
+{
+
+}

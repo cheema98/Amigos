@@ -8,7 +8,7 @@ body::before {
     /*background: linear-gradient(
         rgba(255, 255, 255, 0.3),
         rgba(0, 255, 255, 0.3)), url("../images/bg-ocean.jpg");*/
-    background-image: url("./Images/bg.jpg");
+    background-image: url("./Images/1037430.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center center;
@@ -90,7 +90,7 @@ header > nav > ul > li > #active{
 /* main content */
 main {
     background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
+    border-radius: 25px;
     margin: 20px auto;
     width: 96%;
     text-align: center;
@@ -123,7 +123,7 @@ button
 footer {
     position: relative;
     text-align: center;
-    margin-top: 35%;
+    margin-top: 5%;
 }
  nav ul {
     display: flex;
@@ -191,10 +191,11 @@ background: rgb(191,134,238);
 background: linear-gradient(0deg, rgba(191,134,238,0.27244401178440125) 29%, rgba(247,155,145,0.7906512946975666) 100%);
 width: 100%;
 height: max-content;
+border-radius: 25px;
 }
 
 h2 {
-    background-color: #555c47;
+    background-color: #69162f;
     width: 50%;
     color: #fff;
     padding: 10px;
@@ -218,7 +219,12 @@ h2 {
     
     
 }
-
+.feature_container p{
+    line-height: 1.9rem;
+}
+.box h3{
+    font: 25pt 'Great Vibes', Helvetica, sans-serif;
+}
 main > p {
     width: 50%;
 }
@@ -227,8 +233,14 @@ main > img {
     width: 30%;
 
 }
-.feature_img
-{
-    width: 100px;
-    height: 100px;
+.feature_img > img {
+    max-width: 85%;
+    min-width: 250px;
+    height: auto;
+    border-radius: 25px;
+
+}
+
+.feature_desc{
+    padding-right: 13px;
 }
