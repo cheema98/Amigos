@@ -58,6 +58,11 @@
 
 }
 
+/* hide content 
+h2, h3, .feature_container {
+    display:none;
+}*/
+
 main > p {
     width: 50%;
 }

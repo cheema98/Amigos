@@ -23,6 +23,25 @@ iframe {
     height: 300px;
 }
 
+#gallery {
+    position:relative;
+}
+
+#gallery_img{
+    width: 40%;
+    background-color: #1f1f1f;
+    padding: 5px 5px 5px 5px;
+    margin-top: 20px;
+}
+
+#gallery_overlay {
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    margin-top:20px;
+}
+
 main > p {
     width: 50%;
     text-align: justify;
