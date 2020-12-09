@@ -13,7 +13,7 @@ function buildMap() {
       if($('.map-container').length < 1) { 
         buildEmbed();
       }
-  } else {
+  } else { 
       if($('.static-img').length < 1) { 
         buildStatic();
       }
