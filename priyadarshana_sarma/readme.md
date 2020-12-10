@@ -24,3 +24,5 @@
 - Lecture slides
 - https://www.w3schools.com/
 - Google 
+
+*Note:* All commit history can be found in https://github.com/2020-FALL-ITC-5103-RNB/group-project-task-list-3-four-amigos/commits/master
