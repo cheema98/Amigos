@@ -4,7 +4,7 @@
         <title>Food and Drinks</title>
         <meta charset = "utf-8">
         <meta name = "description" content = "Food and drinks option in a city">
-        <meta name = "keywords" content = "food, drinks">
+        <meta name = "keywords" content = "food, drinks, night club">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <link rel = "stylesheet" href = "styles/food_and_drinks.css">
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
@@ -39,23 +39,20 @@
                 <p>Select City</p>
                 <nav id = "dropdown1">
                     <ul>
-                        <li><a href="nyc_food.html" target = "_blank" title = "Food and drinks option in New York">New York</a></li>
-                        <li><a href="tokyofood.html" target = "_blank" title = "Food and drinks option in Tokyo">Tokyo</a></li>
-                        <li><a href="londonfood.html" target = "_blank" title = "Food and drinks option in London">London</a></li>
+                        <li><a href="food_and_drinks_city.html?city=new_york" title = "Food and drinks option in New York">New York</a></li>
+                        <li><a href="food_and_drinks_city.html?city=tokyo" title = "Food and drinks option in Tokyo">Tokyo</a></li>
+                        <li><a href="food_and_drinks_city.html?city=london" title = "Food and drinks option in London">London</a></li>
                     </ul>
                 </nav>
             </div>
-            <!--Images of restaurant, food and nighlife in a city-->
-            <div id = "myDiv1">
-                <figure>
-                    <img id = "img1" src = "images/restaurant12.jpg" alt = "restaurant image">
-                    <img id = "img2" src = "images/food2.jpg" alt = "food image">
-                    <img id = "img3" src = "images/nightclub.jpg" alt = "night life image">
-                </figure>
+            <!--Slideshow of images of restaurant, food and nighlife in a city-->
+            <div id = "myDiv1">--
+                <img name="slideshow" id="slideshow" src = "images/restaurant1.jpg" alt = "restaurant image">
             </div>
        </main>
        <footer>
             <p>Copyright 2020</p>
         </footer>
+        <script src = "js/food_and_drinks.js"></script>
     </body>
 </html>

@@ -40,16 +40,36 @@
                     <p>Select City</p>
                     <nav id = "dropdown1">
                         <ul>
-                            <li><a href="nyc_transport.html" target = "_blank" title = "Transportation options in New York">New York</a></li>
-                            <li><a href="tokyo_transport.html" target = "_blank" title = "Transportation options in Tokyo">Tokyo</a></li>
-                            <li><a href="london_transport.html" target = "_blank" title = "Transportation options in London">London</a></li>
+                            <li><a href="transportation_city.html?city=new_york"  title = "Transportation options in New York">New York</a></li>
+                            <li><a href="transportation_city.html?city=tokyo" title = "Transportation options in Tokyo">Tokyo</a></li>
+                            <li><a href="transportation_city.html?city=london" title = "Transportation options in London">London</a></li>
                         </ul>
                     </nav>
-                </div>
-            </div>             
-        </main>
+                </div><br>
+                <button id = "survey" onclick="displayBlock()">Do you want to carry out a Survey?</button>
+                <form id = "form" name = "form" method = "GET" action="transportation.html">
+                    <fieldset>
+                        <label for = "name"></label>
+                        Name: <input type="text" name="name" id="name" maxlength="20" size="30">
+                        <span>*</span><br>
+                        <label for = "email"></label>
+                        Email: <input type="text" name="email" id="email" maxlength="50" size="30">
+                        <span>*</span><br>
+                        <p>What kind of transportation do you prefer? <span id = "mySpan">*</span></p> 
+                        <input type = "checkbox" class = "check" id = "taxi" name = "taxi" value = "taxi">
+                        <label for = "taxi">Taxi</label><br>
+                        <input type = "checkbox" class = "check" id = "metro" name = "metro" value = "metro">
+                        <label for = "metro">Metro</label><br>
+                        <input type = "checkbox" class = "check" id = "other" name = "other" value = "other">
+                        <label for = "other">Other</label><br>
+                        <input type = "submit" id = "submit" value = "Submit" onclick="return validateForm()">
+                    </fieldset>                        
+                </form>  
+            </div>  
+       </main>
         <footer>
              <p>Copyright 2020</p>
-        </footer>
+        </footer> 
+        <script src = "js/form.js"></script>       
     </body>
 </html>
