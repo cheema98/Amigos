@@ -39,38 +39,38 @@
                 <p>Select City</p>
                 <nav id = "dropdown1">
                     <ul>
-                        <li><a href="nychotspots.html" target = "_blank" title = "Places to visit in New York">New York</a></li>
-                        <li><a href="tokyohotspots.html" target = "_blank" title = "Places to visit in Tokyo">Tokyo</a></li>                
-                        <li><a href="londonhotspots.html" target = "_blank" title = "Places to visit in London">London</a></li>
+                        <li><a href="hotspots_city.html?city=new_york"  title = "Places to visit in New York">New York</a></li>
+                        <li><a href="hotspots_city.html?city=tokyo"  title = "Places to visit in Tokyo">Tokyo</a></li>
+                        <li><a href="hotspots_city.html?city=london"  title = "Places to visit in London">London</a></li>
                     </ul>
                 </nav>
             </div>
             <div id = "myDiv">
-                <!--Images to visit in the city-->
+                <!--Images to visit in the city and can be zoomed in-->
                 <div class="row1">
-                    <figure>
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/London/buckingham_palace.jpg" alt="Buckingham Palace photo" />
                         <figcaption>Buckingham Palace</figcaption>
                     </figure>
-                    <figure>
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/NewYork/world-trade-center.jpg" alt="World Trade Center photo" />
                         <figcaption>World Trade Center</figcaption>
                     </figure>
-                    <figure>
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/Cairo/pyramids-of-giza.jpg" alt="Pyramids of Giza photo" />
                         <figcaption>Pyramids of Giza</figcaption>
                     </figure>
                 </div>
                 <div class="row2">
-                    <figure>
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/Paris/eiffel-tower-paris.jpg" alt="Eiffel Tower photo" />
                         <figcaption>Eiffel Tower</figcaption>
                     </figure>
-                    <figure>
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/RioDeJanerio/christ-the-redeemer.jpg" alt="Christ the redeemer photo" />
                         <figcaption>Christ the Redeemer</figcaption>
                     </figure>
-                    <figure >
+                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                         <img src="images/Singapore/marina_bay.jpg" alt="Marina Bay photo" />
                         <figcaption>Marina Bay</figcaption>
                     </figure>
@@ -79,6 +79,7 @@
         </main>
        <footer>
            <p>Copyright 2020</p>
-       </footer>
+       </footer>   
+       <script src = "js/hotspots.js"></script>  
     </body>
 </html>

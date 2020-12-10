@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg5.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -18,7 +18,6 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .78;
 }
 
 /*Adjust the margin of the body*/
@@ -161,27 +160,35 @@ header > nav > ul > li > #active{
     font-family: 'Charm', cursive;    
 }
 
-/*Adding style to the first and third images*/
+/*Adding style to the first and third image*/
 #section1 a > img, #section3 a > img {
     float: left;
     width: 50%;
-    height: 18.5em;  
 }
 
-/*Adding style to the second image*/
-#section2 a > img{
+/*Adding style to the second and fourth image*/
+#section2 a > img, #section4 a > img{
     width: 50%;
     float: right;
-    height: 18.5em;  
+}
+
+/* Adding style to the fourth image */
+#section4 a > img{
+    height: 18.9em;
+}
+
+/* Adding style to the first and the third images*/
+#section2 a> img, #section3 a> img, #section1 a > img {
+    height: 17em;
 }
 
 /*Adjusting margin for the first and second content*/
-#section1, #section2 {
+#section1, #section2, #section3{
     margin-bottom: 13px;
 }
 
 /*Adding style to the links in the content*/
-span a {
+span a{
     font-weight: bolder;
     text-decoration: none;
 }
@@ -192,6 +199,7 @@ footer {
     text-align: center;
     margin-top: 3%;
     font-weight: bold;
+    clear: both;
 }
 
 /*For responsive page*/
@@ -200,22 +208,25 @@ footer {
         font-size: 40pt;
     }
 
-    header > nav > ul >li, #dropdown {
+    header > nav > ul >li, #dropdown{
         font-size: 85%;
         display: inline-flex;
         flex-wrap: wrap;
         padding: 1px;
     }
 
-    #section1 a> img, #section2 a>img, #section3 a>img {
+    #section1 a > img, #section2 a > img, #section3 a > img, #section4 a > img  {
         width: 100%;
     }
 
-    #section1 a> img, #section3 a >img {
+    #section4 a > img, #section2 a > img, #section3 a > img {
         height: 50%;
     }
 
-    #myDiv2 div {
-        font-size: medium;
+    #myDiv2 div p {
+        font-size: large;
     }
-}    
+}
+
+
+

@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/NewYork/nyc_bg2.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .78;
+   
 }
 
 /*Adjust the margin of the body*/
@@ -70,7 +70,7 @@ header > nav > ul > li > a, #dropdown > p {
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
-    font-weight: bold;  
+    font-weight: bold; 
 }
 
 /*Changing the background colour in the navigation bar*/
@@ -141,6 +141,7 @@ header > nav > ul > li > #active{
     padding-bottom: 1em;
     width: 90%;
     margin: 20px auto;
+
 }
 
 /*Adjusting the margins of the rows of images*/

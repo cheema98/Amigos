@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg6.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -18,7 +18,6 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .78;
 }
 
 /*Adjust the margin of the body*/
@@ -161,18 +160,22 @@ header > nav > ul > li > #active{
     font-family: 'Charm', cursive;    
 }
 
-/*Adding style to the first and third image*/
+/*Adding style to the first and third images*/
 #section1 a > img, #section3 a > img {
     float: left;
     width: 50%;
 }
 
-/*Adding style for the second image*/
-#section2 a > img {
+/*Adding style to the second image*/
+#section2 a > img{
     width: 50%;
-    height: 19em;
     float: right;
 }
+
+/*Adding style to the first and third images*/
+#section1 a > img, #section3 a > img {
+    height: 17em;   
+} 
 
 /*Adjusting margin for the first and second content*/
 #section1, #section2 {
@@ -180,43 +183,46 @@ header > nav > ul > li > #active{
 }
 
 /*Adding style to the links in the content*/
-span a{
+span a {
     font-weight: bolder;
     text-decoration: none;
 }
-
 /*Adding styles to the footer */
 footer {
     position: relative;
     text-align: center;
     margin-top: 3%;
     font-weight: bold;
-    clear: both;
 }
 
 /*For responsive page*/
 @media only screen and (max-width: 1500px) {
+
     header h1 {
         font-size: 40pt;
     }
 
-    header > nav > ul >li, #dropdown{
+    header > nav > ul >li, #dropdown {
         font-size: 85%;
         display: inline-flex;
         flex-wrap: wrap;
         padding: 1px;
     }
 
-    #section1 a > img, #section3 a> img  {
+    #section1 a> img, #section2 a>img, #section3 a>img {
         width: 100%;
     }
 
-    #section2 a > img {
-        width: 100%;
-        height: 70%;
+    #section3 a >img {
+        height: 50%;
     }
 
-    #myDiv2 div p {
-        font-size: large;
+    #section1 a > img {
+        height: 30%;
     }
-}
+
+    #myDiv2 div {
+        font-size: medium;
+    }
+
+}    

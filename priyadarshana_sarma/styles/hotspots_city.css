@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/NewYork/nyc_bg2.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -18,7 +18,6 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .78;
 }
 
 /*Adjust the margin of the body*/
@@ -170,7 +169,7 @@ header > nav > ul > li > #active{
 /*Adding style to the second image*/
 #section2 a > img {
     width: 50%;
-    height: 19.3em;
+    height: 19em;
     float: right;
 }
 

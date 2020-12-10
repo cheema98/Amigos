@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg5.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -132,34 +132,19 @@ header > nav > ul > li > #active{
     height: 7.89em;
 }
 
-/* section in main content */
+/*section in main content */
 #myDiv1 {
-    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
     width: 90%;
     margin: 20px auto;
 }
 
-/*Adding flex to the figure*/
-figure {
-    display: inline-flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-}
-
-/*Adding style to the images*/
-#img1, #img2, #img3 {
-    width: 32.5%;
-    padding: 4px;
-}
-
-/*Adding height to the image 1*/
-#img1 {
-    height: 100%;
-}
+/*Adding style to the slideshow*/
+#slideshow {
+    width: 60%;
+    border-radius: 10px;
+}    
 
 /*Adding styles to the footer */
 footer {
@@ -188,11 +173,7 @@ footer {
         margin-right: 9px;
     }
 
-    #img1, #img2, #img3 {
-        width: 100%;   
-    }
-
-    #img2, #img3 {
-        height: 27em;
+    #slideshow {
+        width: 100%;
     }
 }

@@ -6,7 +6,7 @@ html {
 /*Adding the background image in the body*/
 body::before {
     content: "";    
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg6.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .78;
+    opacity: .48; 
 }
 
 /*Adjust the margin of the body*/
@@ -64,8 +64,8 @@ header > nav > ul > li {
     display: inline;
 }
 
-/*Adding style to the links and to the dropdwon element*/
-header > nav > ul > li > a, #dropdown > p {
+/*Adding style to the links */
+header > nav > ul > li > a {
     padding: 10px;
     background-color: #2c2e33;
     border: none;
@@ -162,6 +162,38 @@ header > nav > ul > li > #active{
     opacity: .91;
     background-size: cover;
     background-position: center;
+}
+
+/*Adding style to the survey button*/
+#survey {
+    margin-left: 44%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/*Adding style to the form*/
+#form {
+    background-color: white;
+    width: 44%;
+    margin-left: 43.89%;
+}
+
+/*Adding style to the name and email of the form*/
+#name, #email {
+    margin: 8px;
+}
+
+/*Adding style to the span*/
+span {
+    color: red
+}
+
+/*Adding style to submit */
+#submit {
+    background-color: rgb(59, 59, 172);
+    color: white;
+    margin-top: 12px;
 }
 
 /*Adding styles to the footer */
