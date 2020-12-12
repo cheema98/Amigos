@@ -1,29 +1,5 @@
-
-// /*enlarging the image when zoomed in */
-// function zoomIn(x) {
-//     let current_width = x.clientWidth;
-//      x.style.width = (current_width + 100) + "px";        
-// }
-
-// /*resizing the image when zoomed out*/
-// function zoomOut(x) {
-//     let current_width = x.clientWidth;
-//     x.style.width = (current_width - 100) + "px";  
-// }
-
-// $(document).ready(function() {
-	
-// 	$("#myDiv h2").click(
-// 		function() {
-// 			$(this).toggleClass("quote");
-// 		    $(this).next().slideToggle(1000);
-// 	    }
-//     ); 
-// }); 
-// document.getElementById("myNav").onclick = myFunction();
-
+// Creating array of images
 $(document).ready(function() {
-	// create an array of the slide images
 	var image, imageCounter = 0, imageCache = [];
 	$("#myDiv img").each(function() {	
 		image = new Image();
@@ -33,20 +9,19 @@ $(document).ready(function() {
         imageCounter++;
    	});
 	
-	// start slide show
+	//Creating a slideshow with the fading effect
 	imageCounter = 0;
 	var nextImage;
     setInterval( function () {
         $("#caption").fadeOut(2000); 
        	$("#slide").fadeOut(2000,
 			function() {
-				imageCounter = (imageCounter + 1) % imageCache.length;
+				imageCounter = (imageCounter + 1) % imageCache.length; //Changing to next image
 	        	nextImage = imageCache[imageCounter];
 		    	$("#slide").attr("src", nextImage.src).fadeIn(1000);
 			    $("#caption").text(nextImage.title).fadeIn(1000);		
 			}        	
-           ); 
-        
+           );     
     },	
     3000);
 }); 

@@ -187,6 +187,7 @@ span a {
     font-weight: bolder;
     text-decoration: none;
 }
+
 /*Adding styles to the footer */
 footer {
     position: relative;
@@ -224,5 +225,4 @@ footer {
     #myDiv2 div {
         font-size: medium;
     }
-
 }    

@@ -133,28 +133,12 @@ header > nav > ul > li > #active{
     height: 7.89em;
 }
 
-/* section in main content
-#myDiv {
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: 10%;
-    margin: 20px auto;
-
-} */
-
+/*Adding style to the images in #myDiv*/
 #myDiv img {
     display: none;
 }
 
-/* Adjusting the margins of the rows of images
-.row1, .row2 {
-    margin: 0;
-} */
-
-/*Adjusting the relative size of the images in the figure element*/
+/*Adding style to all the images*/
 img {
     height: 100%;
     width: 50%; 
@@ -163,29 +147,13 @@ img {
     margin-top: 20px;
 }
 
+/*Adding style to the caption for the images*/
 #caption {
     text-align: center;
     color: rgb(97, 31, 31);
     font-size: x-large;
-    /* font-style: italic; */
     font-family: 'Charm', cursive;   
 }
-
-/*Adding flex to the figure*/
-/* figure {
-    height: 25%;
-    width: 27%;
-    display: inline-flex;
-    flex-wrap: wrap;    
-    justify-content: center;
-} */
-
-/*Set the styles to the captions of the images*/
-/* figcaption {
-    font-family: cursive;
-    font-weight: bolder;
-    color: rgb(110, 28, 28);
-} */
 
 /*Adding styles to the footer */
 footer {
@@ -222,7 +190,6 @@ footer {
     #caption {
         font-size: medium;
     }
-
 }
 
 

@@ -151,7 +151,7 @@ header > nav > ul > li > #active{
     font-family: 'Great Vibes', Helvetica, sans-serif;
 }
 
-/*Addingbstyle to the content of the page*/
+/*Adding style to the content of the page*/
 #myDiv2 div {
     background-color: rgb(201, 199, 199);
     overflow: auto;

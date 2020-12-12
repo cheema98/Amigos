@@ -32,8 +32,7 @@ function validateForm() {
     }
     if(isValid) {
         form_content.style.display = "none";    
-        alert("Thank you for the Survey"); 
-       
+        alert("Thank you for the Survey");    
     }
     return isValid;
 }

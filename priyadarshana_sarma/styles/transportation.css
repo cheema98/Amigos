@@ -135,7 +135,7 @@ header > nav > ul > li > #active{
     height: 7.89em;
 }
 
-/*Adding styel to the dropdown element*/
+/*Adding style to the dropdown element*/
 #dropdown > p {
     background-color: white;
     color: #000;
@@ -177,7 +177,6 @@ header > nav > ul > li > #active{
     background-color: white;
     width: 44%;
     margin-left: 43.89%;
-
 }
 
 /*Adding style to the name and email of the form*/
@@ -242,6 +241,4 @@ footer {
     #form {
         width: 20em;
     }
-
-
 }
