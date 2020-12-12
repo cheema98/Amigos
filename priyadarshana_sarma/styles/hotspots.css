@@ -209,10 +209,18 @@ footer {
         padding: 1px;   
     }
 
+    #dropdown {
+        margin-bottom: 60px;
+    }
+
     img {
         width: 100%;
         height: 100%;
-        margin: 0;
+        margin: 0 auto;
+    }
+
+    #caption {
+        font-size: medium;
     }
 
 }
