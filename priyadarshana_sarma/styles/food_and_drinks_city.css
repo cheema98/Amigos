@@ -125,8 +125,7 @@ header > nav > ul > li > #active{
 
 /*Changing the background colour of the items in the lists when hovered*/
 #dropdown1 > ul > li:hover, #dropdown1 > ul > li:focus {
-    background-color: rgb(114, 110, 110);
-    
+    background-color: rgb(114, 110, 110);    
 }
 
 /*Setting the height of the dropdown*/
@@ -177,7 +176,7 @@ header > nav > ul > li > #active{
     height: 18.9em;
 }
 
-/* Adding style to the first and the third images*/
+/* Adding style to the first, second and the third images*/
 #section2 a> img, #section3 a> img, #section1 a > img {
     height: 17em;
 }
@@ -217,12 +216,9 @@ footer {
 
     #section1 a > img, #section2 a > img, #section3 a > img, #section4 a > img  {
         width: 100%;
-    }
-
-    #section4 a > img, #section2 a > img, #section3 a > img {
         height: 50%;
     }
-
+    
     #myDiv2 div p {
         font-size: large;
     }
