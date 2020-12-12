@@ -11,14 +11,14 @@
 //     x.style.width = (current_width - 100) + "px";  
 // }
 
-$(document).ready(function() {
+// $(document).ready(function() {
 	
-	$("#myDiv h2").click(
-		function() {
-			$(this).toggleClass("quote");
-		    $(this).next().slideToggle(1000);
-	    }
-    ); 
-}); 
+// 	$("#myDiv h2").click(
+// 		function() {
+// 			$(this).toggleClass("quote");
+// 		    $(this).next().slideToggle(1000);
+// 	    }
+//     ); 
+// }); 
 
 
