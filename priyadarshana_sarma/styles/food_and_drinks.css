@@ -149,7 +149,25 @@ header > nav > ul > li > #active{
     border-radius: 10px;
 }     */
 
+figure {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    /* overflow: hidden; */
+    overflow: auto;
+}
 
+/*Adding style to the images*/
+#img1, #img2, #img3 {
+    width: 100%;
+    /* padding: 1px; */
+    /* height: 10em; */
+}
+
+/*Adding height to the image 1*/
+#img1 {
+    height: 100%;
+}
 
 /*Adding styles to the footer */
 footer {
@@ -173,12 +191,24 @@ footer {
         padding: 1px;
     }
 
-    figure {
-        margin-left: 9px;
-        margin-right: 9px;
+    figure  {
+        /* margin-left: 9px;
+        /* margin-right: 9px; */
+        /* /* display: grid;
+        grid-template-columns: auto auto auto; */  
+        /* padding: 1px; */
+        /* overflow: auto; */
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 80.5%;
+        margin-left: 30px;
     }
 
-    #slideshow {
+    /* figure img {
+        width: 2.5%;
+    } */
+
+    /* #slideshow {
         width: 100%;
-    }
+    } */
 }
