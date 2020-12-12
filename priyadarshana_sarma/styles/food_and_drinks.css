@@ -134,17 +134,22 @@ header > nav > ul > li > #active{
 
 /*section in main content */
 #myDiv1 {
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
     width: 90%;
     margin: 20px auto;
 }
 
-/*Adding style to the slideshow*/
+/* Adding style to the slideshow
 #slideshow {
     width: 60%;
     border-radius: 10px;
-}    
+}     */
+
+
 
 /*Adding styles to the footer */
 footer {

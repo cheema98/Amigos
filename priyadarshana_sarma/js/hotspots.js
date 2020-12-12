@@ -20,6 +20,7 @@
 // 	    }
 //     ); 
 // }); 
+// document.getElementById("myNav").onclick = myFunction();
 
 $(document).ready(function() {
 	// create an array of the slide images
@@ -36,8 +37,8 @@ $(document).ready(function() {
 	imageCounter = 0;
 	var nextImage;
     setInterval( function () {
-        $("#caption").fadeOut(1800); 
-       	$("#slide").fadeOut(1800,
+        $("#caption").fadeOut(2000); 
+       	$("#slide").fadeOut(2000,
 			function() {
 				imageCounter = (imageCounter + 1) % imageCache.length;
 	        	nextImage = imageCache[imageCounter];
