@@ -144,16 +144,6 @@ header > nav > ul > li > #active{
 
 }
 
-#myDiv h2 {
-	font-size: 120%;
-	/* padding: .25em 0 .25em 25px; */
-	background: url(../images/plus.png) no-repeat left ;
-}
-
-.quote {
-	background: url(../images/minus.png) no-repeat left ;
-}
-
 /*Adjusting the margins of the rows of images*/
 .row1, .row2 {
     margin: 0;
