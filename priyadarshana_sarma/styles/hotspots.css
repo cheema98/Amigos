@@ -18,7 +18,7 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-    opacity: .60;
+    opacity: .50;
 }
 
 /*Adjust the margin of the body*/
@@ -164,7 +164,10 @@ img {
 
 #caption {
     text-align: center;
-    color: rgb(133, 18, 18);
+    color: rgb(97, 31, 31);
+    font-size: x-large;
+    /* font-style: italic; */
+    font-family: 'Charm', cursive;   
 }
 
 /*Adding flex to the figure*/
@@ -205,8 +208,8 @@ footer {
         padding: 1px;   
     }
 
-    figure img {
-        width: 20em;
+    #myDiv {
+        width: 100%;
     }
 
 }
