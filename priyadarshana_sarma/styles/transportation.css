@@ -232,13 +232,11 @@ footer {
 
     #survey, #form {
         margin-left: 50px;
-       font-size: small;
+        font-size: small;
     }
 
-    /*Adding style to the name and email of the form*/
     #name, #email {
         width: 150px;
-        /* margin-left: 0 auto; */
     } 
 
     #form {
