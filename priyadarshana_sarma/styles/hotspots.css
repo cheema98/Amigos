@@ -132,44 +132,49 @@ header > nav > ul > li > #active{
     height: 7.89em;
 }
 
-/* section in main content */
+/* section in main content
 #myDiv {
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 90%;
+    width: 10%;
     margin: 20px auto;
 
+} */
+
+#myDiv img {
+    display: none;
 }
 
-/*Adjusting the margins of the rows of images*/
+/* Adjusting the margins of the rows of images
 .row1, .row2 {
     margin: 0;
-}
+} */
 
 /*Adjusting the relative size of the images in the figure element*/
-figure img {
+img {
     height: 100%;
-    width: 120%;    
+    width: 50%; 
+    margin-left: 25%;   
 }
 
 /*Adding flex to the figure*/
-figure {
+/* figure {
     height: 25%;
     width: 27%;
     display: inline-flex;
     flex-wrap: wrap;    
     justify-content: center;
-}
+} */
 
 /*Set the styles to the captions of the images*/
-figcaption {
+/* figcaption {
     font-family: cursive;
     font-weight: bolder;
     color: rgb(110, 28, 28);
-}
+} */
 
 /*Adding styles to the footer */
 footer {

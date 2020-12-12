@@ -36,7 +36,7 @@ $(document).ready(function() {
 	imageCounter = 0;
 	var nextImage;
     setInterval( function () {
-        $("#caption").fadeOut(1000);  
+        $("#caption").fadeOut(1000); 
        	$("#slide").fadeOut(1000,
 			function() {
 				imageCounter = (imageCounter + 1) % imageCache.length;
