@@ -18,7 +18,7 @@ body::before {
     right: 0;
     position:fixed;
     z-index: -1;
-   
+    opacity: .60;
 }
 
 /*Adjust the margin of the body*/
@@ -157,7 +157,14 @@ header > nav > ul > li > #active{
 img {
     height: 100%;
     width: 50%; 
-    margin-left: 25%;   
+    margin-left: 25%;  
+    border-radius: 10px; 
+    margin-top: 20px;
+}
+
+#caption {
+    text-align: center;
+    color: rgb(133, 18, 18);
 }
 
 /*Adding flex to the figure*/
