@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- tag data, content data, and any additional css link will be added individually per feature page -->
+  <title>Book Accommodation</title>
+  <meta charset="utf-8">
+  <meta name="desciption" content="">
+  <meta name="keywords" content="">
+  <!-- <link rel="stylesheet" href="Maps.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+  <link href='/gurdesh_cheema/Hotelss.css' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="./Images/favicon.png">
+</head>
+
+<body>
+  <header>
+    <h1>
+      Four Amigos
+    </h1>
+    <nav>
+      <ul>
+        <!-- links will be added in once we have the html pages available -->
+        <li><a href="c">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">City</a></li>
+        <li><a href="">Hotspots</a></li>
+        <li><a href="">Food and Drinks</a></li>
+        <li><a href="">Transportation</a></li>
+        <li><a href="" id="active">Accommodation</a></li>
+        <li><a href="">Shopping</a></li>
+        <li><a href="">Map</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cotn_principal">
+      <div class="cont_centrar">
+        <h1>Login or Sign Up first to Book a hotel/Accommodation</h1>
+        <div class="cont_login">
+          <div class="cont_info_log_sign_up">
+            <div class="col_md_login">
+              <div class="cont_ba_opcitiy">
+
+                <h2>LOGIN</h2>
+                <p>If already a member Log In first to book a Hotel</p>
+                <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+              </div>
+            </div>
+            <div class="col_md_sign_up">
+              <div class="cont_ba_opcitiy">
+                <h2>SIGN UP</h2>
+
+
+                <p>If a new user Please Sign Up First</p>
+
+                <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="cont_back_info">
+            <div class="cont_img_back_grey">
+              <img
+                src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d"
+                alt="" />
+            </div>
+
+          </div>
+          <div class="cont_forms">
+            <div class="cont_img_back_">
+              <img
+                src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d"
+                alt="" />
+            </div>
+            <div class="cont_form_login">
+              <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"></i>X</i></a>
+              <h2>LOGIN</h2>
+              <input type="text" placeholder="Email" id="user" />
+              <input type="password" placeholder="Password" id="pass" />
+              <button class="btn_login" onclick="validate()">LOGIN</button>
+            </div>
+
+            <div class="cont_form_sign_up">
+              <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"></i>X</i></a>
+              <h2>SIGN UP</h2>
+              <input type="text" placeholder="Email" id="email" />
+              <input type="text" placeholder="User" id="user2" />
+              <input type="password" placeholder="Password" id="pass2" />
+              <input type="password" placeholder="Confirm Password" id="cpass" />
+              <button class="btn_sign_up" onclick="validate2()">SIGN UP</button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+  <footer>
+    <p>Copyright 2020</p>
+  </footer>
+
+</body>
+<script>
+
+
+</script>
+<script src="Hotelss.js"></script>
+
+</html>
