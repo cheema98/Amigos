@@ -1,6 +1,6 @@
 ## Name: Priyadarshana Sarma
 ## Student Number: n01456748
-## Assignment name: Project Phase 2
+## Assignment name: Final Project Submission
 ## Group: Four Amigos
 
 ## Tasks
@@ -8,21 +8,20 @@
 - [x] For all the three features
     - Created a single city html page whose content gets loaded by Javascript based on selected city.
 - [x] For Hotspots page
-    - Added auto zoom while hovering with mouse cursor over image.
+    - Added a Slideshow with the fading effect.
 - [x] For Transportation page
     - Added a Survey Form with validations.
 - [x] For Food and Drinks page     
-    - Added a automatic slideshow.
+    - Added auto zoom while hovering with mouse cursor over image.
 
 ## Learning Curve and challengers
 - Passing URL parameters and reading the parameters in javascript
 - Creating a hidden form and making it visible with button click
 - On mouse events 
 - Using html inside JSON
+- padding-inline-start property is not supported by the https://validator.w3.org/
 
 ## Resources
 - Lecture slides
 - https://www.w3schools.com/
 - Google 
-
-*Note:* All commit history can be found in https://github.com/2020-FALL-ITC-5103-RNB/group-project-task-list-3-four-amigos/commits/master

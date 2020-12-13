@@ -11,6 +11,9 @@ function displayBlock() {
 
 /*form validation for name, email and the checkbox */
 function validateForm() {   
+    document.getElementById("name").nextElementSibling.innerHTML = ""; // reseting the error message for invalid name
+    document.getElementById("email").nextElementSibling.innerHTML = ""; // reseting the error message for invalid email
+    document.getElementById("mySpan").innerHTML = ""; // reseting the error message for checkbox
     let isValid = true;
     let name_str = document.getElementById("name").value;
     let namePattern = /^[a-zA-Z\s]{2,50}$/;

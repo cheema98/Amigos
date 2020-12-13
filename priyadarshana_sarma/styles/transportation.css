@@ -166,17 +166,20 @@ header > nav > ul > li > #active{
 
 /*Adding style to the survey button*/
 #survey {
-    margin-left: 44%;
+    margin-left: 41.89%;
     padding: 10px;
     font-weight: bold;
     background-color: white;
+    font-family: cursive;
+    font-size: medium;
 }
 
 /*Adding style to the form*/
 #form {
     background-color: white;
     width: 44%;
-    margin-left: 43.89%;
+    margin-left: 41.89%;
+    font-family: cursive;
 }
 
 /*Adding style to the name and email of the form*/
@@ -230,7 +233,7 @@ footer {
     }
 
     #survey, #form {
-        margin-left: 50px;
+        margin-left: 37px;
         font-size: small;
     }
 

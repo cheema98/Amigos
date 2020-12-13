@@ -13,8 +13,8 @@ $(document).ready(function() {
 	imageCounter = 0;
 	var nextImage;
     setInterval( function () {
-        $("#caption").fadeOut(2000); 
-       	$("#slide").fadeOut(2000,
+        $("#caption").fadeOut(1800); 
+       	$("#slide").fadeOut(1800,
 			function() {
 				imageCounter = (imageCounter + 1) % imageCache.length; //Changing to next image
 	        	nextImage = imageCache[imageCounter];
@@ -23,6 +23,6 @@ $(document).ready(function() {
 			}        	
            );     
     },	
-    3000);
+    4000);
 }); 
 
