@@ -8,7 +8,7 @@ body::before {
     /*background: linear-gradient(
         rgba(255, 255, 255, 0.3),
         rgba(0, 255, 255, 0.3)), url("../images/bg-ocean.jpg");*/
-    background-image: url("./Images/bg.jpg");
+    background-image: url("./Images/maps1.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center center;
@@ -89,12 +89,14 @@ header > nav > ul > li > #active{
 
 /* main content */
 main {
-    background-color: rgba(255, 255, 255, 0.85);
+    /* background-color: rgba(255, 255, 255, 0.85); */
     border-radius: 10px;
     margin: 20px auto;
     width: 90%;
     text-align: center;
-
+    background-image: url("./Images/maps3.jpg");
+    height: 900px;
+    background-size: cover;
 }
 
 main > select {
@@ -160,7 +162,7 @@ button
 footer {
     position: relative;
     text-align: center;
-    margin-top: 35%;
+    /* margin-top: 35%; */
 }
  nav ul {
     display: flex;
