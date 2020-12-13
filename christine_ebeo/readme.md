@@ -14,4 +14,3 @@
 ## Resources
 - Phase 1 and 2
 - Google, StackOverflow, various JS articles
-
