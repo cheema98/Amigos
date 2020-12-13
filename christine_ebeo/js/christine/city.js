@@ -24,25 +24,25 @@ function init_continent_list(){
 
 }
 
-/* shows content for each continent, load from html */
+/* shows content for each continent, load from sub html */
 function show_af(){
-    $(".city_content").load("city/africa.html");
+    $(".city_content").load("city/christine/africa.html");
 }
 
 function show_as(){
-    $(".city_content").load("city/asia.html");
+    $(".city_content").load("city/christine/asia.html");
 }
 
 function show_eu(){
-    $(".city_content").load("city/europe.html");
+    $(".city_content").load("city/christine/europe.html");
 }
 
 function show_na(){
-    $(".city_content").load("city/north_america.html");
+    $(".city_content").load("city/christine/north_america.html");
 }
 
 function show_sa(){
-    $(".city_content").load("city/south_america.html");
+    $(".city_content").load("city/christine/south_america.html");
 }
 
 init_continent_list();
