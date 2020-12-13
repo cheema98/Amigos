@@ -19,7 +19,7 @@
 - Creating a hidden form and making it visible with button click
 - On mouse events 
 - Using html inside JSON
-- padding-inline-start property is not supported by the https://validator.w3.org/
+- padding-inline-start property is not supported by the W3C
 
 ## Resources
 - Lecture slides
