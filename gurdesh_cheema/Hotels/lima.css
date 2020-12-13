@@ -204,7 +204,13 @@ nav ul li{
       flex-direction: column;
     }
   }
-  
+  footer img{
+    height: 80px;
+  }
+    footer {
+      margin-top: 0px;
+    }
+    
   
   /*
   .card {

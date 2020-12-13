@@ -1,4 +1,4 @@
-header, nav, footer {
+header, nav {
     /*border: red 1px solid;*/
     width: 80%;
     margin: 0 auto;
@@ -137,11 +137,8 @@ header, nav, footer {
     }
   }
   
-  footer
-  {
-    background-color: black;
-    color: white;
-  
+  footer{
+    margin-left: 610px ;
   }
     
   .map{

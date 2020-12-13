@@ -1,9 +1,12 @@
-header, nav, footer {
+header, nav {
   /*border: red 1px solid;*/
   width: 80%;
   margin: 0 auto;
 }
 
+footer{
+  margin-left: 610px ;
+}
 /* header */
 header {
   text-align: center;
@@ -137,13 +140,10 @@ iframe {
   }
 }
 
-footer
-{
-  background-color: black;
-  color: white;
 
-}
-  
+footer img{
+  height: 80px;
+} 
 .map{
   background: transparent;
   margin:40px 0px;

@@ -1,7 +1,12 @@
-header, nav, footer {
+header, nav{
   /*border: red 1px solid;*/
   width: 80%;
   margin: 0 auto;
+}
+
+
+footer{
+  margin-left: 610px ;
 }
 
 /* header */
@@ -137,17 +142,16 @@ iframe {
   }
 }
 
-footer
-{
-  background-color: black;
-  color: white;
 
-}
   
 .map{
   background: transparent;
   margin:40px 0px;
   
+  
+}
+footer img{
+  height: 80px;
 }
 iframe{
   border-radius: 25px;

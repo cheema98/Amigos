@@ -33,7 +33,7 @@ body {
     background-color:#fff1de;
 }
 
-header, nav, footer {
+header, nav{
     /*border: red 1px solid;*/
     width: 80%;
     margin: 0 auto;
@@ -206,9 +206,20 @@ nav ul li{
     .card-list {
       /* On small screens, we are no longer using row direction but column */
       flex-direction: column;
+      
     }
+    header > nav > ul > li {
+      display:block;
+      padding: 10px;
   }
-  
+}
+
+footer img{
+  height: 80px;
+}
+  footer {
+    margin-top: 0px;
+  }
   
   /*
   .card {
