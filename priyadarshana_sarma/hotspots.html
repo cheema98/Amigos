@@ -8,7 +8,9 @@
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <link rel = "stylesheet" href = "styles/hotspots.css">
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
         <link rel = "shortcut icon" href = "images/Favicon.png">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
     </head>
     <body>
         <header>
@@ -33,7 +35,7 @@
                </ul>
            </nav>
        </header>
-        <main>
+       <main>       
            <!--Drop-down list for the various cities-->
             <div  id = "dropdown">
                 <p>Select City</p>
@@ -45,41 +47,21 @@
                     </ul>
                 </nav>
             </div>
+           
+            <img id = "slide" src="images/London/buckingham_palace.jpg" alt="" />
             <div id = "myDiv">
-                <!--Images to visit in the city and can be zoomed in-->
-                <div class="row1">
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/London/buckingham_palace.jpg" alt="Buckingham Palace photo" />
-                        <figcaption>Buckingham Palace</figcaption>
-                    </figure>
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/NewYork/world-trade-center.jpg" alt="World Trade Center photo" />
-                        <figcaption>World Trade Center</figcaption>
-                    </figure>
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/Cairo/pyramids-of-giza.jpg" alt="Pyramids of Giza photo" />
-                        <figcaption>Pyramids of Giza</figcaption>
-                    </figure>
-                </div>
-                <div class="row2">
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/Paris/eiffel-tower-paris.jpg" alt="Eiffel Tower photo" />
-                        <figcaption>Eiffel Tower</figcaption>
-                    </figure>
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/RioDeJanerio/christ-the-redeemer.jpg" alt="Christ the redeemer photo" />
-                        <figcaption>Christ the Redeemer</figcaption>
-                    </figure>
-                    <figure onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-                        <img src="images/Singapore/marina_bay.jpg" alt="Marina Bay photo" />
-                        <figcaption>Marina Bay</figcaption>
-                    </figure>
-                </div>
-            </div>
+                <img src="images/London/buckingham_palace.jpg" alt="Buckingham Palace" />
+                <img src="images/NewYork/world-trade-center.jpg" alt="World Trade Center" />
+                <img src="images/Cairo/pyramids-of-giza.jpg" alt="Pyramids of Giza" />
+                <img src="images/Paris/eiffel-tower-paris.jpg" alt="Eiffel Tower" />
+                <img src="images/RioDeJanerio/christ-the-redeemer.jpg" alt="Christ the redeemer" />
+                <img src="images/Singapore/marina_bay.jpg" alt="Marina Bay" />
+            </div>  
+            <h2 id="caption">Buckingham Palace</h2>  
         </main>
-       <footer>
+        <footer>
            <p>Copyright 2020</p>
-       </footer>   
-       <script src = "js/hotspots.js"></script>  
+        </footer>   
+        <script src = "js/hotspots.js"></script>  
     </body>
 </html>

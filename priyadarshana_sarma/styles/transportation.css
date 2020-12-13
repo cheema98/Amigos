@@ -177,6 +177,7 @@ header > nav > ul > li > #active{
     background-color: white;
     width: 44%;
     margin-left: 43.89%;
+
 }
 
 /*Adding style to the name and email of the form*/
@@ -218,7 +219,8 @@ footer {
     }
 
     #dropdown > p {
-        font-size: 90%;   
+        font-size: 90%; 
+        font-weight: bolder;  
     }
 
     #dropdown {
@@ -227,4 +229,19 @@ footer {
     #dropdown1 > ul > li {
         padding: 10px 10px;    
     }
+
+    #survey, #form {
+        margin-left: 50px;
+        font-size: small;
+    }
+
+    #name, #email {
+        width: 150px;
+    } 
+
+    #form {
+        width: 20em;
+    }
+
+
 }
