@@ -40,7 +40,13 @@
         <!-- main content -->
         <main>
 
-            <img src="images/christine/about_banner.png" alt="about page banner">
+            <div id="gallery">
+                
+            </div>
+
+            <span class="banner_quote">
+                "Not all those who wander are lost."
+            </span>
             
             <h2>About Us</h2>
             
@@ -75,15 +81,23 @@
                 Do you need immediate help? In our <span class="tab">services</span> tab, we provide you with important contact for when you travel. Nothing is more important than your safety. We care about you!
             </p>
 
-            <h2>Sneak peak</h2>
-            
-            <div id="gallery">
-                
+            <p>
+                Do you need immediate help? In our <span class="tab">services</span> tab, we provide you with important contact for when you travel. Nothing is more important than your safety. We care about you!
+            </p>
+    
+            <h2>Suggestion Box</h2>
+            <p>We are growing our content! Do you want to see more features or places? Comment and submit your ideas below! This form is completely anonymous.</p>
+
+            <div id="thank_you_notif">
+
             </div>
 
-            <p>
-                Here are sneak peaks of some of our cities. Watch some walk throughs around by clicking the image above. You can also head over to our gallery page for more. Enjoy!
-            </p>
+            <form id="suggestion_box" onsubmit="return suggest()">
+                <textarea id="suggestion_form" name="comments"></textarea>
+                <input type="submit" id="submit" value="Submit">
+            </form>    
+
+            
 
         </main>
 
@@ -94,8 +108,8 @@
 
         <!-- js scripts here -->
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="js/nav.js"></script>
-        <script src="js/about.js"></script>
+        <script src="js/christine/nav.js"></script>
+        <script src="js/christine/about.js"></script>
 
     </body>
 </html>

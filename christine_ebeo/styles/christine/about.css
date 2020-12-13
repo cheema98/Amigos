@@ -1,6 +1,13 @@
 /* Stylesheet for about page*/
 
 /* main content css */
+
+.banner_quote {
+    padding-top: 20px;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .feature_container {
     width: 80%;
     display: grid;
@@ -39,7 +46,7 @@ iframe {
     position: absolute;
     top: 0px;
     left: 40%;
-    margin-top:20px;
+    margin-top:40px;
 }
 
 main > p {
@@ -48,6 +55,41 @@ main > p {
     text-indent: 5%;
     line-height: 1.6;
 
+}
+
+#suggestion_box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#suggestion_form {
+    width: 60%;
+    height: 80pt;
+    border-radius: 10px;
+    
+}
+
+#submit {
+    width: 50%;
+    margin: 5pt 5pt 20pt 5pt;
+    padding: 5pt;
+    background-color: #365f71;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+
+#submit:hover {
+    background-color: #365f71;
+    color: #fff;
+    
+}
+
+#thank_you_notif {
+    font-size: 14pt;
 }
 
 /* main banner uses this */
