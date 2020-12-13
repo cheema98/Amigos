@@ -1,4 +1,4 @@
-header, nav, footer {
+header, nav {
     /*border: red 1px solid;*/
     width: 80%;
     margin: 0 auto;
@@ -137,18 +137,16 @@ header, nav, footer {
     }
   }
   
-  footer
-  {
-    background-color: black;
-    color: white;
   
-  }
     
   .map{
     background: transparent;
     margin:40px 0px;
     
-  }
+  }footer img{
+    height: 80px;
+    align-items: center;
+}
   iframe{
     border-radius: 25px;
     float: left;
@@ -261,4 +259,8 @@ header, nav, footer {
     margin-right:auto;
     margin-top:24px;
     margin-bottom:100px;
+  }
+
+  footer{
+    margin-left: 610px ;
   }

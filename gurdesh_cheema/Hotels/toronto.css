@@ -203,7 +203,13 @@ nav ul li{
     }
   }
   
-  
+  footer img{
+    height: 80px;
+  }
+    footer {
+      margin-top: 0px;
+    }
+    
   /*
   .card {
     margin: 30px auto;
